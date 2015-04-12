@@ -10,6 +10,21 @@
 
 @interface ViewController : UIViewController
 
+{
+    int push;
+    float number;
+    IBOutlet UILabel *label;
+    
+    
+}
+
+-(IBAction)plus;
+-(IBAction)minus;
+-(IBAction)clear;
+-(IBAction)multiply;
+-(IBAction)divide;
+-(IBAction)plus1;
+-(IBAction)aiueo;
 
 @end
 
